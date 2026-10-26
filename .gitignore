@@ -1,0 +1,42 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# User documents and local data
+data/*
+!data/.gitkeep
+
+# Local vector databases
+chroma_db/
+qdrant_storage/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+
+# Python package build artifacts
+*.egg-info/
+build/
+dist/
