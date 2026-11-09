@@ -9,9 +9,15 @@ version = "0.1.0"
 description = "A RAG-powered PDF question-answering assistant with verifiable citations."
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
+
+
 dependencies = [
     "pymupdf>=1.26,<3",
+    "sentence-transformers>=5,<6",
+    "qdrant-client>=1.12,<2",
 ]
+
+
 
 [project.optional-dependencies]
 dev = [
