@@ -1,9 +1,12 @@
 
 import os
 
+from dotenv import load_dotenv
 from google import genai
 
 DEFAULT_MODEL_NAME = "gemini-3.5-flash-lite"
+
+load_dotenv()
 
 
 class LLMService:
